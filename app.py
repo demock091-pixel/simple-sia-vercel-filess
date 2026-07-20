@@ -14,7 +14,7 @@ def create_app():
     Membuat dan mengkonfigurasi aplikasi Flask.
     """
 
-    app = Flask(__name__)
+    app = Flask(__name__, static_folder="public", static_url_path="")
 
     # Memuat konfigurasi aplikasi
     app.config.from_object(Config)

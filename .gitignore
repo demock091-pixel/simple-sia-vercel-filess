@@ -52,3 +52,9 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+venv/
+.env
+__pycache__/
+*.pyc
+db.sqlite3
